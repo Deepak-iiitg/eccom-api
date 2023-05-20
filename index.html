@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eccomerce Rest Api</title>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <form>
+        <label for="name">Seller Name: </label>
+        <input id="name" type="text">
+        <label for="price">Price</label>
+        <input id="price" type="number">
+        <label for="category">Choose category</label>
+        <select id="category">
+           <option value="none">none</option>
+           <option value="electronics">electronics</option>
+           <option value="food">food</option>
+        </select>
+        <input type="button" value="Add Products" id="submit"/>
+    </form>
+        <h1>Products</h1>
+        <div>
+          
+            <h1>Electronics</h1>
+           <div id="electronics">
+                  
+           </div>
+           <h1>Food</h1>
+           <div id="food">
+           
+          </div>
+         <script src="index.js"></script>
+        </div>
+    </body>
+</html>
